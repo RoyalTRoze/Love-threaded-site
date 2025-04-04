@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600&display=swap');
 body {
   font-family: Arial, sans-serif;
   background: #fff7f5;
@@ -50,10 +51,53 @@ button {
 button:hover {
   background: #e76565;
 }
+h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 3rem;
+  color: #ff5c8a;
+}
 
 footer {
   background: #f9f9f9;
   text-align: center;
   padding: 1rem;
+  h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2rem;
+  color: #cc3366;
+  margin-top: 2rem;
+  }
+  p, label, input, textarea {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #333;
+}
+
+input, textarea {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+  button {
+  background: #ff5c8a;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #e04a74;
+}
   font-size: 0.9rem;
 }

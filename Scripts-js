@@ -1,0 +1,8 @@
+// scripts.js
+// Future custom features and interactivity will go here
+
+// Example placeholder:
+// You could add scroll animations, dynamic product previews,
+// or custom AI-art preview logic in here down the line.
+
+console.log("Love Threaded script loaded.");

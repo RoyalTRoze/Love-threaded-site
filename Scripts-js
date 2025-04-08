@@ -1,8 +1,67 @@
-// scripts.js
-// Future custom features and interactivity will go here
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love Threaded</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Love Threaded</h1>
+    <p>Wear Your Bond. Make it Yours.</p>
+  </header>  <section id="about" class="section">
+    <h2>About</h2>
+    <p>
+      Love Threaded is not just clothing — it’s a love letter in fabric. Every piece is a personal collaboration between you and me. I design, cut, stitch, and ship each order with intention.
+    </p>
+    <p>
+      Whether you’re celebrating your anniversary, starting a new chapter, or reigniting the spark, these designs are made to reflect the beauty and energy of your connection.
+    </p>
+    <p>
+      No print-on-demand shortcuts. No mass production. Just hand-customized wearables infused with story, care, and surprise.
+    </p>
+  </section>  <section id="gallery" class="section">
+    <h2>Design Gallery</h2>
+    <p class="section-subtext">A preview of energy, intimacy, and originality.</p>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="https://via.placeholder.com/200x200" alt="Couples Set 1" />
+        <p>Playful – His & Hers</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://via.placeholder.com/200x200" alt="Couples Set 2" />
+        <p>Romantic – Midnight Bloom</p>
+      </div>
+    </div>
+  </section>  <section id="custom-order" class="section form-section">
+    <h2>Create Yours</h2>
+    <p class="section-subtext">
+      Share your story. Upload your vibe. Let me create something no one else has.
+    </p>
+    <form action="https://tally.so/r/your-form-link" method="GET">
+      <label>Names:</label>
+      <input type="text" name="names" required /><label>Theme / Occasion:</label>
+  <input type="text" name="theme" />
 
-// Example placeholder:
-// You could add scroll animations, dynamic product previews,
-// or custom AI-art preview logic in here down the line.
 
-console.log("Love Threaded script loaded.");
+  <label>Upload Your Photo:</label>
+  <input type="file" name="photo" accept="image/*" />
+
+
+  <label>Anything special you want to share?</label>
+  <textarea name="notes"></textarea>
+
+
+  <button type="submit">Submit Your Request</button>
+</form>
+<p class="disclaimer">*All orders are handcrafted and shipped by me. Expect a little surprise in every package.</p>
+
+
+  </section>  <footer class="site-footer">
+    <p>Copyright © 2025 Love Threaded. All rights reserved.</p>
+  </footer>  <!--
+      Site designed with love and code by Royal T.
+      Built to connect, uplift, and style every kind of love.
+      Love Threaded © 2025
+  --></body>
+</html>

@@ -1,44 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hood Love Collection</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Threaded</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Hood Love</h1>
-        <p id="tagline">“Loyalty Looks Like This”</p>
+    <header class="site-header" role="banner">
+        <h1>Love Threaded</h1>
+        <p>Wear Your Bond. Make it Yours.</p>
     </header>
 
-    <section class="vibe">
-        <h2>Vibe</h2>
-        <p>This is love that grew through concrete. Urban intimacy. A couple that holds each other down through chaos.</p>
-    </section>
+    <main>
+        <section id="about" class="section" role="region" aria-labelledby="about">
+            <h2>About</h2>
+            <p>
+                Love Threaded is not just clothing — it’s a love letter in fabric. Every piece is a personal collaboration between you and me. I design, cut, stitch, and ship each order with intention.
+            </p>
+            <p>
+                Whether you’re celebrating your anniversary, starting a new chapter, or reigniting the spark, these designs are made to reflect the beauty and energy of your connection.
+            </p>
+            <p>
+                No print-on-demand shortcuts. No mass production. Just hand-customized wearables infused with story, care, and surprise.
+            </p>
+        </section>
 
-    <section class="visual-aesthetic">
-        <h2>Visual Aesthetic</h2>
-        <ul>
-            <li>Alleyways, graffitied walls, apartment stairwells, parking lots at sunset.</li>
-            <li>Warm tones, moody night shots, high-contrast daylight.</li>
-            <li>Matching hoodies, joggers, denim, tanks, oversized tees, bandanas.</li>
-        </ul>
-    </section>
+        <section id="gallery" class="section" role="region" aria-labelledby="gallery">
+            <h2>Design Gallery</h2>
+            <p class="section-subtext">A preview of energy, intimacy, and originality.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item" tabindex="0">
+                    <img src="https://via.placeholder.com/200x200" alt="Couples Set 1" />
+                    <p>Playful – His & Hers</p>
+                </div>
+                <div class="gallery-item" tabindex="0">
+                    <img src="https://via.placeholder.com/200x200" alt="Couples Set 2" />
+                    <p>Romantic – Midnight Bloom</p>
+                </div>
+            </div>
+        </section>
 
-    <section class="core-products">
-        <h2>Core Products</h2>
-        <ul>
-            <li>His and Hers Matching Outfits</li>
-            <li>Custom Stickers</li>
-            <li>Palm Rose</li>
-            <li>Urban-Inspired Accessory</li>
-            <li>Photo Art Print</li>
-        </ul>
-    </section>
+        <section id="custom-order" class="section form-section" role="region" aria-labelledby="custom-order">
+            <h2>Create Yours</h2>
+            <p class="section-subtext">Share your story. Upload your vibe. Let me create something no one else has.</p>
+            <form id="order-form" action="https://tally.so/r/your-form-link" method="GET" onsubmit="showLoading()">
+                <label for="names">Names:</label>
+                <input type="text" id="names" name="names" required />
+                
+                <label for="theme">Theme / Occasion:</label>
+                <input type="text" id="theme" name="theme" />
 
-    <footer>
-        <p>&copy; 2023 Hood Love Collection</p>
+                <label for="photo">Upload Your Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*" />
+
+                <label for="notes">Anything special you want to share?</label>
+                <textarea id="notes" name="notes"></textarea>
+
+                <button type="submit">Submit Your Request</button>
+            </form>
+            <p class="disclaimer">*All orders are handcrafted and shipped by me. Expect a little surprise in every package.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 Love Threaded. All rights reserved.</p>
+        <p class="credit">Site designed with love and code by Royal T. Built to connect, uplift, and style every kind of love.</p>
     </footer>
 </body>
 </html>
+```

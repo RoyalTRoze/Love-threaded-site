@@ -126,3 +126,16 @@ footer.site-footer {
   font-size: 0.9rem;
   color: #777;
 }
+```
+
+### JavaScript Code (script.js)
+
+```javascript
+// Show loading indicator when the form is submitted
+function showLoading() {
+    const form = document.getElementById('order-form');
+    form.innerHTML = '<p>Loading... Please wait.</p>'; // Simple loading message
+    // Optionally, disable the button to prevent multiple submissions
+    const button = form.querySelector('button');
+    button.disabled = true;
+}
